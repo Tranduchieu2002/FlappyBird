@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <style>
-      canvas  {
-         padding: 300px;
-     }
-     @media only screen and (max-width: 600px) {
-        canvas {
-         width: 100%;
-         height: 100%;  
-        }
-     }
+      body {
+         background-color: #eee;
+      }
+
+      p {
+         color: red
+      }
+
+      canvas {
+         margin: 0 auto;
+      }
+
+      @media only screen and (max-width: 600px) {
+         canvas {
+            width: 100%;
+            height: 100%;
+         }
+      }
    </style>
 </head>
-<body>
-   <canvas id="canvas" width="280px" height="530px">
 
+<body>
+   <canvas id="canvas" width="280px" height="523px">
    </canvas>
+   <div class="tutorial_Basic_game_template">
+      TUTORIALS
+      <p>
+         using button space node to make the bird ply
+      </p>
+      <img width="200px" src="https://www.wpclipart.com/dl.php?img=/computer/keyboard_keys/large_keys/computer_key_Space_bar.webp"
+         alt="">
+   </div>
    <script src="index.js"></script>
 </body>
+
 </html>
